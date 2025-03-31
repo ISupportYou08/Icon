@@ -1,0 +1,32 @@
+body {
+    background-color: #212529; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.name-container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: url('trafalgar-law-logo-2560x1440-15258.jpg'); /* One Piece background */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.308);
+}
+.name-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin-bottom: 10px; 
+}
+
+.name-row i {
+    font-size: 100px;
+}
